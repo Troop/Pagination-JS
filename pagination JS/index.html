@@ -6,15 +6,12 @@
     <title>Students</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/design.css">
-    <link rel="stylesheet" href="simplePagination.css">
   </head>
   <body>
     <div class="page">
-      <div class="page-header cf">
+      <div id="header" class="page-header cf">
         <h2>Students</h2>
-        <!-- dynamically insert search form here (optional) -->
-        <button id="searchButton" class="student-search" type="searchButton">Search!</button>
-        <input id="searchField" type="searchField" class="student-search"></input>
+        <!-- dynamically insert search from here (optional) -->
       </div>
       <ul id="paginationList" class="pagination-sm">
         <li class="student-item cf">
@@ -559,9 +556,9 @@
         </li>
       </ul>
       <!-- dynamically add pagination links here -->
-
+      <div id="paginationButtonsArea" class="paginationButtonsArea">
+      </div>
       <script src="jquery-3.3.1.slim.min.js"></script>
-      <script src="jquery.simplePagination.js"></script>
       <script src="main.js"></script>
 
     </div>

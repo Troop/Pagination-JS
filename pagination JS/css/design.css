@@ -31,14 +31,14 @@ body{
       border-radius: 15px;
       border: 1px solid #eaeaea;
       padding: 8px 15px;
-      font-size: 30px;
+      font-size: 40px;
     }
 
     .page-header .student-search button{
       border-radius: 5px;
       border: 1px solid #eaeaea;
       padding: 8px 15px;
-      font-size: 14px;
+      font-size: 24px;
       background-color: #4ba6c3;
       color: #fff
     }
@@ -117,3 +117,9 @@ body{
       background-color: #4ba6c3;
       color: #fff;
     }
+.paginationButtonsArea button{
+  margin-top: 15px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-size: 10px;
+}
